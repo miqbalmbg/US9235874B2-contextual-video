@@ -1,4 +1,3 @@
-README.md
 # Contextual Video Upscaling (US9235874B2)
 
 Hybrid AI Pipeline for Video Super-Resolution  
@@ -43,6 +42,7 @@ This reduces flicker and increases detail compared to single-frame upscaling.
 ---
 
 ## Architecture
+```
 Device
 │
 │ Step 1: Low-res preview (GIF)
@@ -225,6 +225,7 @@ Such architectures are relevant for:
 ---
 
 ## Repository Structure
+```
 US9235874B2-contextual-video
 │
 ├── contextual_video_upscaling_demo.py
