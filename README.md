@@ -42,7 +42,8 @@ This reduces flicker and increases detail compared to single-frame upscaling.
 ---
 
 ## Architecture
-```Device
+```
+Device
 │
 │ Step 1: Low-res preview (GIF)
 ▼
@@ -63,8 +64,8 @@ Device
 │ Step 4: Frame verification
 │ Step 5: Video reconstruction
 ▼
-High-Resolution Video```
-
+High-Resolution Video
+```
 ---
 
 ## Processing Pipeline
@@ -224,7 +225,8 @@ Such architectures are relevant for:
 ---
 
 ## Repository Structure
-```US9235874B2-contextual-video
+```
+US9235874B2-contextual-video
 │
 ├── contextual_video_upscaling_demo.py
 ├── Contextual_Video_Upscaling_Documentation.docx
@@ -233,7 +235,8 @@ Such architectures are relevant for:
 ├── step1_lowres_preview.gif
 ├── step4_final_video.mp4
 │
-└── README.md```
+└── README.md
+```
 
 ---
 
